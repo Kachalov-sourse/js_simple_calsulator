@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="cube inputF"><form ><input type="text" name="my_form" readonly></form></div>
+        <div id="cb" class="cube clean">C</div>
+        <div class="cube back">&larr;</div>
+        <div class="cube" onclick="addThis('+')">+</div>
+        <div class="cube" onclick="addThis('-')">-</div>
+        <div class="cube" onclick="addThis('*')">&times;</div>
+        <div class="cube" onclick="addThis('/')">&divide;</div>
+        <div class="cube" onclick="addThis('.')">.</div>
+        <div class="numbers cube one" onclick="addThis('1')">1</div>
+        <div class="numbers cube " onclick="addThis(2)">2</div>
+        <div class="numbers cube " onclick="addThis('3')">3</div>
+        <div class="numbers cube" onclick="addThis(4)">4</div>
+        <div class="numbers cube" onclick="addThis(5)">5</div>
+        <div class="numbers cube" onclick="addThis(6)">6</div>
+        <div class="numbers cube" onclick="addThis(7)">7</div>
+        <div class="numbers cube" onclick="addThis(8)">8</div>
+        <div class="numbers cube" onclick="addThis(9)">9</div>
+        <div class="cube" onclick="addThis('(')">(</div>
+        
+        <div class="numbers cube zero" onclick="addThis(0)" >0</div>
+        <div class="cube"onclick="addThis(')')">)</div>
+        
+        <div class="cube equal">=</div>
+    </div>
+</body>
+</html>
